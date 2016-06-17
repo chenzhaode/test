@@ -1,0 +1,21 @@
+github是基于Linux系统的命令
+安装客户端 msysgit
+
+设置用户信息
+git config --global user.email "ouyangyewei@yhd.com"
+git config --global user.name "ouyangyewei"
+
+1、把项目下载到本地目录
+git  clone https://github.com/chenzhaode/test.git
+
+
+2、进入该项目的根目录
+cd test
+
+3、将改动的地方添加到版本管理器（本地操作）
+git add .    
+
+4、提交到本地的版本控制库里
+git  commit -m "changes log"  
+
+5、
